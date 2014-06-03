@@ -1,4 +1,4 @@
-
+//Main file: Draws Frame 
 package guiproject;
 
 public class main {
