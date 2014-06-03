@@ -6,16 +6,13 @@ package guiproject;
 
 import javax.swing.JFrame;
 
-/**
- *
- * @author rivaj3249
- */
-public class MainFrame extends JFrame{
+public class MainFrame extends JFrame {
 
     MainFrame() {
-        setSize(400, 400);
+        setSize(400,400);
         setTitle("Highway Hell");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(true);
         setVisible(true);
     }
 }
